@@ -1,0 +1,45 @@
+* {
+ margin:0;
+ padding:0;
+}
+h3 {
+ font-size:12px;
+ color:#0066CC;
+ line-height:1.5em;
+}
+h3 a{
+ text-decoration: none;
+}
+p {
+ font-size:12px;
+ /*text-indent:2em;   /首行缩进两个字符*/
+}
+.container {
+	float: left;
+ width:100%;		/在iframe中内容宽度设置100%
+ margin:0 auto;
+ margin-top:5px;    /第一个div距ifrema顶的距离
+ position:relative;
+
+}
+.container_1 {
+	float: left;
+ width:100%;		/在iframe中内容宽度设置100%
+ margin:0 auto;
+ margin-top:40px;
+ position:relative;  /定位机制
+}
+.leftContent {
+ position:absolute;
+ top:2px;
+ left:4px;
+}
+.leftContent img{
+ height:80px;
+	width:100px;
+ border:1px solid #ccc;
+ padding:2px;
+}
+.rightContent {
+ margin-left:120px;
+}

@@ -1,0 +1,43 @@
+.dqwz{
+    float: left;
+    width: 100%;
+    margin:0px 0px;
+}
+.dqwz a:link{
+    text-decoration: none;
+    background-color: #ccc;
+}
+.dqwz a:hover{
+    text-decoration: none;
+}
+h3 #name{
+    width: 100%;
+}
+.container_2 {
+	float: left;
+ width:100%;		/在iframe中内容宽度设置100%
+ margin:0 auto;
+ margin-top:0px;
+ position:relative;  /定位机制
+}
+.leftContent_2 {
+ position:absolute;
+ top:2px;
+ left:4px;
+}
+.leftContent_2 img{
+ height:120px;
+	width:100px;
+ border:1px solid #ccc;
+ padding:2px;
+}
+.rightContent_2 {
+ margin-left:120px;
+}
+h4{
+    margin-top: 0px;
+    color: #a4241f;
+}
+p{
+    text-indent:2em;
+}

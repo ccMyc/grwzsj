@@ -1,0 +1,169 @@
+div .logo{
+    background: #1a1a1a;
+    padding: 0px;
+    }
+.zt{
+    width: 80%;
+    height: 980px;
+    border: 3px solid #ccc;
+    margin: auto;
+}
+#nav                /*导航栏*/
+{
+ margin:0px;
+ width: 100%;
+ height: 30px;
+ background: #ccc;
+}
+ #nav a:link                /*未访问时*/
+{
+ color: #000;
+text-decoration: none;     /*文本修饰*/
+}
+ #nav a:hover               /*悬浮时*/
+{
+ color: #fff;
+     text-decoration: none;
+}
+ #nav li
+{
+ text-align:center;
+ float: left;
+ display: inline;      /*内嵌显示*/
+ padding:0px 30px;
+ line-height:30px;      /*设置行高*/
+ position:relative;  /*容器相对定位，里面的.list绝对定位就不会跑偏了。*/
+}
+ #nav div.list
+{
+ display:none;
+ font-size: 13px;
+ line-height: 20px;
+ padding: 0px 30px;
+ background-color:#ccc;
+ position:absolute;     /*绝对定位*/
+ top:30px; left:0px;
+ }
+ #nav li.menu1 div.list{ display:block;}
+
+#sub{
+    margin: 5px;
+    float: right;
+}
+.gg{
+    float: right;
+    width: 28%;
+    margin: 7px 7px;
+}
+.gg img{
+    width: 100%;
+}
+.text{
+    float: right;
+    width: 28%;
+    margin:5px 5px;
+}
+.iframe_index{
+    float: left;
+    width: 70%;
+}
+.text #liuyan{
+    float: right;
+    width: 100%;
+    height: 300px;
+    background:#faebcc;
+
+}
+.footer_r{
+    float: left;
+    width: 100%;
+}
+/*----------------------------------------------------------*/
+h4{
+    float: left;
+    width: 70%;
+    margin: 5px 20px;
+}
+.yyzm_1{
+    width: 100%;
+    height: 620px;
+    border: 1px solid #faebcc;
+  background-image: url("../images/bj.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.yyzm_1 .xl ul{
+    margin: 0px 0px;
+    float: left;
+    width: 10%;
+    height: 620px;
+    border: 1px solid #faebcc;
+}
+
+.yyzm_1 .xl li{
+    text-decoration: none;
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+}
+ .xl a:link                /*未访问时*/
+{
+ color: #000;
+text-decoration: none;     /*文本修饰*/
+}
+ .xl a:hover               /*悬浮时*/
+{
+ color: #fff;
+     text-decoration: none;
+}
+
+.rightCont{
+    float: left;
+    width: 80%;
+    margin: 5px 20px;
+    border: 1px solid #faebcc;
+}
+
+.rightCont img{
+	float:left;
+	margin-right:10px;
+	width:120px;
+}
+.rightContant{
+    float: left;
+    width: 100%;
+    height: 135px;
+    margin-top: 0px;
+    background-color: #C0CC9D;
+    border: 1px solid #faebcc;
+}
+
+.rightContant img{
+	float:left;
+	margin: 30px 30px;
+	width:100px;
+    height: 80px;
+}
+.iframe_yyjm{
+    float: left;
+    margin: 5px 20px;
+    width: 80%;
+}
+.mag{
+    width: 20%;
+}
+table{
+    margin-top: 20px;
+}
+.f_p{
+    width: auto;
+    margin-left: 30px;
+    float: left;
+    overflow: hidden;           /*防止内容超出容器或者产生自动换行*/
+}
+.f_p a{
+    width: 100%;
+    text-decoration: none;
+}
+/*---------------------------------------*/
